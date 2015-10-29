@@ -23,9 +23,9 @@
 
         <!-- Add your site or application content here -->
         <div class="container">
-
-            <div class="header col-sm-8">
-                <img src="img/logo.png" alt="Espinoza's Painting LLC.">
+            <div class="wrapper">
+            <div class="header col-xs-12 col-sm-8">
+                <img src="img/logo.png" alt="Espinoza's Painting LLC." id="logo">
             </div>
             <div class="social-media">
                 <a href="#">
@@ -65,14 +65,31 @@
                 </a>
             </div>
             <nav class="col-xs-12">
+                <div class="mobile-menu">
+                    <button id="mobile-menu" class="navbar-toggle bg-color top-left">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
                 <ul>
-                    <li class="col-xs-2"><a href="#">Home</a></li>
-                    <li class="col-xs-2"><a href="#">About</a></li>
-                    <li class="col-xs-2"><a href="#">Gallery</a></li>
-                    <li class="col-xs-2 col-xs-offset-4"><a href="#">Contact</a></li>
+                    <li class="col-sm-2"><a href="#" class="corbfont">Home</a></li>
+                    <li class="col-sm-2"><a href="#" class="corbfont">About</a></li>
+                    <li class="col-sm-2"><a href="#" class="corbfont">Gallery</a></li>
+                    <li class="col-sm-2 col-sm-offset-4"><a href="#" class="corbfont">Contact</a></li>
                 </ul>
             </nav>
+            <div class="content">
+                <div class="img col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-3">
+                    <img src="img/content-img.jpg" alt="" class="img-responsive center-block">
+                </div>
+                <h2 class="col-xs-12 col-sm-10 col-sm-offset-1 corbfont">Heading</h2>
+                <p class="col-xs-12 col-sm-8 col-sm-offset-2 corbfont">"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit sequi amet velit possimus error sunt quibusdam, repudiandae excepturi similique, ipsam asperiores. Neque veritatis repellat sapiente magni debitis, sequi ducimus cum, possimus facere repellendus commodi officiis culpa, illo. Ullam veritatis placeat, laudantium quisquam. Placeat quia laudantium earum aliquam dolor harum dignissimos soluta delectus culpa illum quam accusamus neque repellendus autem, aspernatur ipsum molestias alias. Placeat, quasi sint dicta consequatur iusto quia alias, nesciunt doloremque perspiciatis ullam ut illum dolore sunt, magni laborum, cupiditate omnis veritatis aut dolorem voluptatum? Asperiores voluptas, aliquid explicabo. Similique, placeat ipsam, esse aliquid autem magnam quasi, quam vel nihil optio ipsa qui hic! Ab mollitia eos inventore in, sint iusto consequuntur odio nulla vitae velit incidunt qui nemo magnam ex natus officiis, quos repudiandae voluptas, ipsum reprehenderit eum est distinctio excepturi! Doloremque voluptas iusto totam ipsam nihil laborum omnis necessitatibus adipisci quaerat, libero delectus! Aut sapiente, unde!"</p>
+            </div>
+            </div>
         </div>
+            <footer id="footer">© RanceTurley.com</footer>
+
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
